@@ -23,8 +23,6 @@ Lazybot has some basic background functionality. In order to use it, you must ha
 
 The current list of commands is maintained at https://github.com/flatland/lazybot/wiki/Commands, and you can find help on any particular command with $help <command> (eg $help fcst).
 
-[commands]: https://github.com/flatland/lazybot/wiki/Commands
-
 ## Development
 
 Contributions to lazybot are welcome, most often in the form of new plugins. If you have a great idea for something lazybot could do that would be useful or neat, don't just sit on it: Write a plugin, and send a pull request! But before you get started, take a look at [our plugin policy][before-plugin] and the [plugin quick-start guide][plugin-guide]. If you want to see how much work it takes to write a plugin, take a look at a couple plugins added by developers not on the core team:
