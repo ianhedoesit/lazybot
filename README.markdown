@@ -21,7 +21,7 @@ Lazybot has some basic background functionality. In order to use it, you must ha
 
 ## Commands
 
-The current list of commands is maintained at [https://github.com/flatland/lazybot/wiki/Commands](), and you can find help on any particular command with $help <command> (eg $help fcst).
+The current list of commands is maintained at https://github.com/flatland/lazybot/wiki/Commands, and you can find help on any particular command with $help <command> (eg $help fcst).
 
 ## Development
 
