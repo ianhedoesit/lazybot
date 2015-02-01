@@ -70,12 +70,13 @@
   (:hook
    :privmsg
    (fn [{:keys [message] :as com-m}]
-     (let [[_ direction snick] (re-find #"^\((inc|dec|identity)\s+([^)]+)\s*\)(\s*;.*)?$" message)]
+     (let [[_ direction snick] (re-find #"^\((inc|dec|identity|karma)\s+([^)]+)\s*\)(\s*;.*)?$" message)]
        (when snick
          ((case direction
             "inc" (karma-fn inc)
             "dec" (karma-fn dec)
-            "identity" print-karma)
+            "identity" print-karma
+            "karma" print-karma)
           (merge com-m {:args [snick]}))))))
   (:cmd
    "Checks the karma of the person you specify."
